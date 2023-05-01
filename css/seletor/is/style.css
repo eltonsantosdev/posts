@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  font-size: 14px;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  background-color: #103f8d;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  flex-direction: column;
+  gap: 16px;
+}
+
+input {
+  display: block;
+  padding: 14px 12px;
+  cursor: pointer;
+  background-color: #ffffff;
+  outline: 2px solid #ffffff;
+  border: none;
+  border-radius: 6px;
+}
+
+input::placeholder {
+  color: #1e293b;
+}
+
+/* A pseudo-class :is() em CSS permite que você escreva seletores
+compostos de forma mais compacta. Por exemplo, em vez de escrever: */
+input:focus,
+input:hover {
+  outline-offset: 3px;
+}
+
+/* Podemos escrever os seletores da seguinte forma: */
+button:is(:focus, :hover) input:is(:focus, :hover) {
+  outline-offset: 3px;
+}
