@@ -6,8 +6,8 @@ Aqui você encontrará os códigos fontes dos projetos publicados no instagram
 O formato geral da legenda é o seguinte
 
 Pegue o código fonte completo no GitHub.
-Repo: reels
-Folder: css/seletor/hover 
+<p>Repo: reels,</p>
+<p>Folder: css/seletor/hover </p>
 
 ## Licença
 Apenas saiba que você pode usar esses trechos de código como achar melhor.
